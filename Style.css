@@ -1,0 +1,52 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+header {
+    border: 1px solid ;
+    background-color: white;
+    width: auto;
+    height: 151px;
+    position: relative;
+}
+div#logo{
+    float:left;
+}
+div#login{
+    font-weight: bold;
+    font-size: small;
+    right: 10px;
+    position: absolute;     /* absolute phai co relative o element cha*/
+    bottom: 10px;
+}
+
+nav {
+    clear:both;
+    background-color: rgb(135, 199, 164);
+    border: 1px solid ;
+    /* width: 1200px; */
+    /* height: 100px; */
+    display: flex;
+    flex-direction: row;       /*nam ngang*/
+    justify-content: space-between;
+    align-items: center;
+}
+div#menu > ul {
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
+}
+
+div#menu > ul > li {
+    border-left: 1.5px solid #000;
+    padding: 5px;
+}
+
+div#menu > ul > li > a {
+    font-weight: bold;
+    font-size:small;
+    color: rgb(199, 48, 48);
+    text-decoration: none;
+}
+
